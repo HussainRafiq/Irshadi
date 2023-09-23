@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context=".sharequestion">
+
+    
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/bgpanel"
+        android:elevation="10dp"
+        >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:background="@android:color/white"
+                android:elevation="10dp"
+                android:id="@+id/profilebtn"
+                android:orientation="horizontal"
+                >
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profilepic"
+                    app:civ_border_width="2dp"
+
+                    app:civ_border_color="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:id="@+id/usernametxt"
+                        android:text="AAMIR"
+                        android:textColor="@android:color/black"
+                        android:layout_marginStart="5dp"
+                        android:textSize="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/profile"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="What's Your Question"
+            android:padding="10dp"
+                android:id="@+id/question"
+            android:textAlignment="viewStart"
+            android:background="@android:color/transparent"
+            android:textSize="15dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Post"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+android:id="@+id/postbtn"
+            android:background="@drawable/button_bg"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/li"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

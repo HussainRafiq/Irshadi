@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/head"
+        android:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:title="Profile"></Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profilepic"
+    app:civ_border_width="2dp"
+
+    app:civ_border_color="@color/colorPrimaryDark"/>
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+
+    app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+    android:contentDescription="Upload Picture"
+    android:layout_alignEnd="@+id/profile"
+    android:layout_alignBottom="@+id/profile"/>
+        <EditText
+            android:layout_width="150dp"
+            android:hint="Your Username"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile"
+        android:id="@+id/username"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            android:id="@+id/proceed"
+            android:textSize="20dp"
+            android:background="@drawable/button_bg"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/username"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

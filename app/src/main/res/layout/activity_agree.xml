@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Agree">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:text="Welcome To Irshaadi"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Enter your Phone Number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Irshaadi will send an SMS message to verify your phone number.You login in these by your number."
+
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:textAlignment="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+92"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            />
+<EditText
+    android:layout_width="match_parent"
+    android:textSize="20dp"
+android:layout_marginStart="10dp"
+android:hint="Phone Number"
+    android:inputType="number"
+    android:id="@+id/phno"
+    android:maxLength="10"
+    android:layout_height="50dp" />
+    </LinearLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center"
+    android:id="@+id/probtn"
+    android:text="Proceed"
+    android:textColor="@android:color/white"
+    android:background="@drawable/button_bg"
+    android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+</LinearLayout>

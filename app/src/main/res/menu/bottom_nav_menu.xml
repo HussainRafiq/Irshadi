@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/upevent"
+        android:icon="@drawable/ic_event_note_black_24dp"
+        android:title="Upcoming Event" />
+
+    <item
+        android:id="@+id/yourques"
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        android:title="Your Question" />
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="Chat" />
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/ic_reorder_black_24dp"
+        android:title="Other" />
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "695206436484",
+    "firebase_url": "https://irshadi-15183.firebaseio.com",
+    "project_id": "irshadi-15183",
+    "storage_bucket": "irshadi-15183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695206436484:android:26ece2f932ddb6739d6cd1",
+        "android_client_info": {
+          "package_name": "com.hussain.irshadi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695206436484-r7f3n31pdfvijjnjgt49imqr87s74eq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hussain.irshadi",
+            "certificate_hash": "6a0a2ee70d2edc1cade4e4c46fc758490e65ad97"
+          }
+        },
+        {
+          "client_id": "695206436484-5o0jgu49okkddb73ifg4bue1nro3qcem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHCe3wBx_WY9ILzjrHM4ZLJtZZsphggmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695206436484-5o0jgu49okkddb73ifg4bue1nro3qcem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

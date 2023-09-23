@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Other">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:id="@+id/profilebtn"
+    android:orientation="horizontal"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:src="@drawable/profilepic"
+    app:civ_border_width="2dp"
+
+    app:civ_border_color="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/usernametxt"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/profile"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Edit Your Profile"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_menu"
+        ></ListView>
+
+
+
+</LinearLayout>
